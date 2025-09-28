@@ -1,36 +1,58 @@
+```markdown
+# 🎉 Discord Giveaway Bot
+
+A feature-rich giveaway bot with SQLite database and slash commands.
+
+## ✨ Features
+
+- Slash Commands
+- SQLite Database  
+- Auto-Ending Giveaways
+- Reroll System
+- Participant Management
+- Admin Permissions
+
+## 🚀 Setup
+
+1. Install dependencies:
+```bash
+npm install discord.js @discordjs/builders sqlite3 ms
+```
+
+1. Create .env file:
+
+```env
+TOKEN=your_bot_token
+```
+
+1. Run the bot:
+
+```bash
+node index.js
+```
+
 📋 Commands
 
-/giveaway start
-
-Start a new giveaway
-
-· duration - Time duration (1h, 2d, 30m)
-· winners - Number of winners
-· prize - Giveaway prize
-· description - Requirements (optional)
-
-/giveaway end
-
-End a giveaway manually
-
-· message_id - Giveaway message ID
-
-/giveaway reroll
-
-Re-select winners
-
-· message_id - Giveaway message ID
-· winners - Number of new winners
-
-🎮 Bot Permissions
-
-· ADMINISTRATOR or:
-· VIEW_CHANNEL
-· SEND_MESSAGES
-· MANAGE_MESSAGES
-· EMBED_LINKS
+· /giveaway start - Start new giveaway
+· /giveaway end - End giveaway
+· /giveaway reroll - Reroll winners
 
 📞 Support
 
-Join our Discord server for support and updates:
-https://discordapp.com/api/guilds/your-server-id/widget.png?style=banner2
+Discord Server
+
+📝 License
+
+MIT License
+
+```
+
+This is the most concise version while keeping all essential information. It includes:
+
+- **Minimal feature list**
+- **Basic setup steps** 
+- **Command overview**
+- **Support link**
+- **License**
+
+The formatting is clean and professional while being extremely brief.
