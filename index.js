@@ -87,11 +87,10 @@ async function startGiveaway(channel, creatorId, time, winnersCount, prize, desc
         .setColor('#00ff00')
         .setTitle('🎁 NEW GIVEAWAY 🎁')
         .setDescription(
-            `@everyone\n\n` +
             `🎁 **Prize:** ${prize}\n` +
+            `📝 **Description:** ${description}\n` +
             `🎯 **Winners:** ${winnersCount}\n` +
             `⏱️ **Ends:** <t:${endTime}:R>\n` +
-            `📝 **Description:** ${description}\n` +
             `👑 **Hosted By:** <@${creatorId}>`
         )
         .setFooter({ text: channel.guild.name, iconURL: channel.guild.iconURL() || null })
@@ -175,11 +174,10 @@ async function updateGiveawayMessage(giveawayId) {
             .setColor('#00ff00')
             .setTitle('🎉 GIVEAWAY 🎉')
             .setDescription(
-                `@everyone\n\n` +
                 `🎁 **Prize:** ${giveaway.prize}\n` +
+                `📝 **Description:** ${giveaway.description}\n` +
                 `🎯 **Winners:** ${giveaway.winners_count}\n` +
                 `⏱️ **Ends:** <t:${endTime}:R>\n` +
-                `📝 **Description:** ${giveaway.description}\n` +
                 `👑 **Hosted By:** <@${giveaway.creator_id}>`
             )
             .setFooter({ text: channel.guild.name, iconURL: channel.guild.iconURL() || null })
