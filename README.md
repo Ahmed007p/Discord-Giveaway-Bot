@@ -40,19 +40,4 @@ node index.js
 📞 Support
 
 Discord Server
-
-📝 License
-
-MIT License
-
-```
-
-This is the most concise version while keeping all essential information. It includes:
-
-- **Minimal feature list**
-- **Basic setup steps** 
-- **Command overview**
-- **Support link**
-- **License**
-
-The formatting is clean and professional while being extremely brief.
+https://discord.gg/mnrNdD6JSS
