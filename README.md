@@ -32,11 +32,11 @@ node index.js
 ```
 
 📋 Commands
-
+````
 · /giveaway start - Start new giveaway
 · /giveaway end - End giveaway
 · /giveaway reroll - Reroll winners
-
+````
 📞 Support
 
 Discord Server
